@@ -1,0 +1,77 @@
+.card 
+{
+    margin-top : 70px;
+    width : 100vw;
+    border : none;
+
+
+    &_header 
+    {
+        width : 350px;
+        margin : auto;
+        font-family : 'Averta';
+        
+        h1 
+        {
+            margin : auto;
+            font-size : 30px;
+
+            &::after 
+            {
+                content : '';
+                display : block;
+                width : 20%;
+                height : 2px;
+                margin : auto;
+                background : black;
+                margin-top : 10px;
+            }
+        }
+
+        p 
+        {
+            font-family: 'AvertaStd';
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+
+    &_btn 
+    {
+        margin-top : 30px;
+        font-size: 15px;
+        font-family : 'Averta';
+    }
+}
+
+.ride_image 
+{
+    height : 250px;
+    width : 400px;
+    margin : auto;
+    transition : 0.3s;
+}
+
+.animateImg 
+{
+    animation-name : img-animate;
+    animation-duration : 2s;  
+    animation-fill-mode: forwards;  
+}
+
+@keyframes img-animate 
+{
+    25%
+    {
+        transform : translateY(-6%);
+    }
+    100%
+    {
+        transform : translateY(-16%) scale(1.05,1.05);
+    }
+}
+
+.ride_title 
+{
+    font-family : 'Averta';
+}

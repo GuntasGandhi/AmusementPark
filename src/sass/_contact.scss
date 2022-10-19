@@ -1,0 +1,89 @@
+.contact 
+{
+    margin-top : 50px;
+    width : 100vw;
+    min-height : 70vh;
+    background-image : linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../images/contact.png');
+    background-position: center;
+    background-size: cover;
+    display : flex;
+    flex-direction: column;
+    padding : 50px;
+    position: relative;
+
+    h1 
+    {
+        font-family: 'Averta';
+        color : white;
+        text-transform: lowercase;
+        margin-bottom : 30px;
+    }
+
+    .btn 
+    {
+        margin-top : 20px;
+    }
+}
+
+
+.welfare 
+{
+    position : absolute;
+    right : 50px;
+    width : 600px;
+    color : #bbd0ff;
+    font-family : 'Brussels City Personal Used';
+
+    h1 
+    {
+        color : #bbd0ff;
+        font-family : 'Brussels City Personal Used';
+        text-transform: capitalize;
+    }
+
+    .btn 
+    {
+        width : 150px;
+        font-family: 'Cabin';
+    }
+}   
+
+
+.form-control 
+{
+    width : 300px;
+    border : none;
+}
+.form-label 
+{
+    font-family: 'Cabin';
+    font-weight: normal;
+    color : #eaf4f4;
+}
+
+.form-check-label 
+{
+    color : white;
+    font-family: 'Cabin';
+}
+
+
+.form-check-input 
+{
+    border : none;
+}
+.msg 
+{
+    margin-top : 20px;
+    width : 300px;
+
+    i 
+    {
+        padding : 10px;
+        background : #38b000;
+        border-radius: 50%;
+        margin-left : 5px; 
+        font-size: 12px;
+        color : white;
+    }
+}
